@@ -2,37 +2,10 @@ Mybatis Generator Plugin
 ======================================
 
 
-[![Travis](https://img.shields.io/travis/kimichen13/mybatis-generator-plugin.svg)](https://travis-ci.org/kimichen13/mybatis-generator-plugin)
-[![GitHub stars](https://img.shields.io/github/stars/kimichen13/mybatis-generator-plugin.svg)](https://github.com/kimichen13/mybatis-generator-plugin/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/kimichen13/mybatis-generator-plugin.svg)](https://github.com/kimichen13/mybatis-generator-plugin/network)
-[![GitHub license](https://img.shields.io/github/license/kimichen13/mybatis-generator-plugin.svg)](https://github.com/kimichen13/mybatis-generator-plugin/blob/master/LICENSE)
+Base Mybatis Plugin
+======================================
 
-
-
-## Usage 
-
-In your ```build.gradle``` file, add following plugin:
-
-``` groovy
-buildscript {
-  repositories {
-    maven {
-      url "https://plugins.gradle.org/m2/"
-    }
-  }
-  dependencies {
-    classpath "gradle.plugin.com.thinkimi.gradle:mybatis-generator-plugin:2.0"
-  }
-}
-
-apply plugin: "com.thinkimi.gradle.MybatisGenerator"
-
-configurations {
-    mybatisGenerator
-}
-
-mybatisGenerator {
-    verbose = true
-    configFile = 'src/main/resources/autogen/generatorConfig.xml'
-}
-```
+[![GitHub stars](https://img.shields.io/github/stars/liaomengge/base-mybatis-generator-plugin.svg)](https://github.com/liaomengge/base-mybatis-generator-plugin/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/liaomengge/base-mybatis-generator-plugin.svg)](https://github.com/liaomengge/base-mybatis-generator-plugin/network)
+[![GitHub maven center](https://img.shields.io/maven-central/v/com.github.liaomengge/base-mybatis-generator-plugin.svg)](https://search.maven.org/search?q=g:com.github.liaomengge%20AND%20a:base-mybatis-generator-plugin)
+[![GitHub license](https://img.shields.io/github/license/liaomengge/base-mybatis-generator-plugin.svg)](https://github.com/liaomengge/base-mybatis-generator-plugin/blob/master/LICENSE)
