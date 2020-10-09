@@ -1,4 +1,4 @@
-Mybatis Generator Plugin
+Base Mybatis Generator Plugin
 ======================================
 
 [![GitHub stars](https://img.shields.io/github/stars/liaomengge/base-mybatis-generator-plugin.svg)](https://github.com/liaomengge/base-mybatis-generator-plugin/stargazers)
