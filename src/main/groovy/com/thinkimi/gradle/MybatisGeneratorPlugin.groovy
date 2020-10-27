@@ -27,7 +27,7 @@ class MybatisGeneratorPlugin implements Plugin<ProjectInternal> {
                         mybatisGenerator 'org.postgresql:postgresql:42.2.8'
                         mybatisGenerator 'com.oracle:ojdbc14:10.2.0.5.0'
                         mybatisGenerator 'tk.mybatis:mapper:4.1.5'
-                        mybatisGenerator 'com.github.liaomengge:base-mybatis-plugin:1.0.6'
+                        mybatisGenerator 'com.github.liaomengge:base-mybatis-plugin:1.0.7'
                     }
                 }
                 config
