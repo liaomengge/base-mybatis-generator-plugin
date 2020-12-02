@@ -1,4 +1,4 @@
-package com.thinkimi.gradle
+package com.github.liaomengge
 
 import org.gradle.api.file.FileCollection
 import org.gradle.api.internal.ConventionTask
@@ -10,15 +10,20 @@ import org.gradle.api.tasks.TaskAction
  */
 class MybatisGeneratorTask extends ConventionTask {
 
-    MybatisGeneratorTask(){
+    MybatisGeneratorTask() {
         description = 'Mybatis Generator Task'
         group = 'Util'
     }
 
+    //@Input
     def overwrite
+    //@Input
     def configFile
+    //@Input
     def verbose
+    //@Input
     def targetDir
+    //@Internal
     FileCollection mybatisGeneratorClasspath
 
     @TaskAction

@@ -16,8 +16,8 @@ apply plugin: 'com.github.spotbugs'
 apply plugin: 'com.diffplug.spotless'
 
 group = 'com.github.liaomengge'
-version = '1.0.7'
-description =  "Mybatis Gradle Generator Plugin"
+version = '1.1.0'
+description = "Mybatis Gradle Generator Plugin"
 
 apply from: "${rootProject.projectDir}/gradle/publish-properties.gradle"
 apply from: "${rootProject.projectDir}/gradle/publish-jar.gradle"
