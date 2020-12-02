@@ -1,4 +1,4 @@
-package com.thinkimi.gradle
+package com.github.liaomengge
 
 import groovy.transform.ToString
 

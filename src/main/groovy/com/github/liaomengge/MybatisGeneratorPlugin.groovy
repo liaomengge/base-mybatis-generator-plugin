@@ -1,4 +1,4 @@
-package com.thinkimi.gradle
+package com.github.liaomengge
 
 import org.gradle.api.Plugin
 import org.gradle.api.internal.project.ProjectInternal
@@ -25,9 +25,8 @@ class MybatisGeneratorPlugin implements Plugin<ProjectInternal> {
                         mybatisGenerator 'org.mybatis.generator:mybatis-generator-core:1.4.0'
                         mybatisGenerator 'mysql:mysql-connector-java:5.1.47'
                         mybatisGenerator 'org.postgresql:postgresql:42.2.8'
-                        mybatisGenerator 'com.oracle:ojdbc14:10.2.0.5.0'
                         mybatisGenerator 'tk.mybatis:mapper:4.1.5'
-                        mybatisGenerator 'com.github.liaomengge:base-mybatis-plugin:1.0.7'
+                        mybatisGenerator 'com.github.liaomengge:base-mybatis-plugin:1.1.0'
                     }
                 }
                 config
