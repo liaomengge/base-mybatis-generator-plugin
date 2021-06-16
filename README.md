@@ -106,7 +106,7 @@ Base Mybatis Generator Plugin
       >         </commentGenerator>
       > 
       >         <!-- 必须要有的，使用这个配置链接数据库 -->
-      >         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+      >         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
       >                         connectionURL="jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&amp;zeroDateTimeBehavior=convertToNull&amp;tinyInt1isBit=false"
       >                         userId="test"
       >                         password="test">
